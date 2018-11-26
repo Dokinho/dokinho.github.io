@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vježba1</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="stil.css">
+  </head>
+  <body>
+    <form id="forma">
+			<h1 id="naslov">Testform</h1>
+			<div class="flexy">
+		    <label class="formlabel" for="name">Name</label>
+		    <input type="text" name="name" id="name">
+			</div>
+		  <div class="flexy">
+		    <label class="formlabel" for="password">Password</label>
+		    <input type="password" name="password" id="password">
+			</div>
+			<div class="flexy">
+				<label class="formlabel">Gender</label>
+				<div>
+		      <input type="radio" name="gender" value="male">Male<br>
+				  <input type="radio" name="gender" value="female">Female
+			  </div>
+			</div>
+			<div class="flexy">
+		    <label class="formlabel">Continent</label>
+		    <select>
+					<option>Please select...</option>
+					<option value="NA">NA</option>
+					<option value="SA">SA</option>
+					<option value="Europe">Europe</option>
+					<option value="Asia">Asia</option>
+					<option value="Africa">Africa</option>
+			  </select>
+			</div>
+			<div class="flexy">
+				<label class="formlabel">Meals</label>
+				<div>
+		      <input type="checkbox" value="breakfast">breakfast<br>
+			    <input type="checkbox" value="lunch">lunch<br>
+				  <input type="checkbox" value="dinner">dinner
+			  </div>
+		  </div>
+		  <div class="flexy">
+		    <label class="formlabel">Remark</label>
+		    <textarea name="remark" rows="5" cols="40"></textarea>
+			</div>
+			<div class="flexy footer">
+		    <input type="submit" name="send" value="Send">
+			  <input type="button" name="cancel" value="Cancel">
+		  </div>
+		</form>
+  </body>
+</html>

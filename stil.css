@@ -1,0 +1,32 @@
+.formlabel {
+    width: 200px;
+    display: block;
+    padding: 0px 5px;
+}
+
+.flexy {
+    display: flex;
+    align-items: stretch;
+    margin: 10px 0px;
+}
+
+.footer>input {
+    display: flex;
+    margin: 3px;
+}
+
+.footer {
+    justify-content: flex-end;
+    background-color: #dddddd;
+    border-top: 2px solid #aaaaaa;
+}
+
+#forma {
+    width:650px;
+}
+
+#naslov {
+    background-color: #cccccc;
+    border-bottom: 2px solid #aaaaaa;
+    padding: 0px 5px;
+}
